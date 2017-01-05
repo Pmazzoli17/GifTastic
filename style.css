@@ -1,0 +1,56 @@
+body {
+    font: 18px arial, sans-serif;
+    background: #DCDCDC;
+    background-image:url();
+}
+#villains {
+    width: 70%;
+}
+.villain-item {
+    float: left;
+    padding: 30px;
+}
+
+.button-row {
+    padding: 20px;
+    background-color: #DCDCDC;
+}
+
+.btn {
+    margin: 8px 5px;
+}
+form {
+    width: 30%;
+    float: right;
+    padding: 20px;
+}
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 18px;
+}
+button,
+input[type="submit"] {
+    background: #5F9EA0;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #bbb;
+}
+button:hover,
+input[type="submit"]:hover {
+    background: #2d4746;
+}
+button.active {
+    background: #2d4746;
+}
